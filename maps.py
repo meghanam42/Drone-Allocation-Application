@@ -1,9 +1,3 @@
-"""
-Name: Meghana Moturu
-ID: 938805776
-UPI: mmot335
-"""
-import mysql.connector
 import sqlite3
 class Map(object):
     """ Stores details on a map. """
