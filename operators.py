@@ -1,10 +1,3 @@
-"""
-Name: Meghana Moturu
-ID: 938805776
-UPI: mmot335
-"""
-
-import mysql.connector
 import sqlite3
 from datetime import date
 
@@ -134,7 +127,6 @@ class OperatorStore(object):
             elif first_n is not None and last_n is None:
                 self._conn.row_factory = sqlite3.Row
                 cursor = self._conn.cursor()
-                print 'here'
                 query = 'SELECT Operator.id AS opID,firstName, lastName, droneLicense, rescueEndorsement, operations, droneID, Drone.ID as drid FROM Operator LEFT OUTER JOIN Drone ON Drone.operatorID = Operator.ID WHERE lower(firstName) = lower(?)'
                 cursor.execute(query,(first_n,))
                 results = cursor.fetchone()
