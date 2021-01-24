@@ -1,9 +1,3 @@
-"""
-Name: Meghana Moturu
-ID: 938805776
-UPI: mmot335
-"""
-import mysql.connector
 import sqlite3
 from operators import Operator, OperatorStore
 from maps import Map, MapStore
