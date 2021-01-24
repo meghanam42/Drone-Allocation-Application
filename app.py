@@ -1,4 +1,3 @@
-import mysql.connector
 import Tkinter as tk
 import ttk
 import sqlite3 as sl
