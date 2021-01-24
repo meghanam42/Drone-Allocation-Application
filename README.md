@@ -1,7 +1,7 @@
 # Drone-Allocation-Application
 
 ## Installation Instructions:
-As this Drone Allocation application uses an embedded SQL database, there is no need to install pip etc. You can simply run it using your chosen IDE.
+As this Drone Allocation application uses an embedded SQL database, there is no need to install pip etc. You can simply run it using your chosen IDE. However, this application has been created using Python 2.7, so please remember to run this application using this version of Python.
 
 ## Information:
 This application was created as a part of a university course. The drone allocation application basically allows users to help keep track of drones around certain areas of New Zealand. Within it, one can:
